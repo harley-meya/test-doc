@@ -1,0 +1,13 @@
+triggers:
+  - type: meya.start_chat
+    properties:
+        use_relative_path: true
+name: hello_world
+states:
+    first:
+        component: mutli
+    
+    text_state:
+        component: meya.text
+        properties:
+            text: Your text here
